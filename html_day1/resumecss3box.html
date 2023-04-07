@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+    }
+    header{
+        background-color: bisque;
+        padding: 30px;
+        text-align: center;
+    }
+    nav{
+        text-align: center;
+    }
+    nav a{
+        background-color: black;
+            font-size: large;
+            float:left;
+            display: block;
+            color: gray;
+            padding: 14px 16px;
+            text-decoration: none;
+    }
+    nav a:hover{
+            background-color:azure;
+            color:rgb(25, 129, 25);
+        }
+        main{
+            padding: 15px;
+            text-align: center;
+            clear :left;
+        }
+        main::after{
+            content:"";
+            display: table;
+            clear:both;
+        }
+        footer{
+            height: 50px;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: midnightblue;
+            color:red;
+        }
+
+</style>
+<body>
+   <header>
+    <h1>Kwality walls ice cream</h1>
+   </header> 
+   <nav>
+    <h3>
+        <a href="#hom">About</a>
+        <a href="#prod">My contacts</a>
+        <a href="#edu">Education</a>
+        <a href="#">PDdetails</a>
+    </h3>
+   </nav>
+   <main>
+    
+    <article>
+        <section>
+            <h3 id="hom">Home</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem id itaque quidem odit fuga temporibus, numquam laborum quos repudiandae ratione iste. Eligendi ad, dolorum placeat in velit fugiat accusamus! Placeat.</p>
+        </section>
+        <section>
+            <h3 id="prod">Products</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente veniam temporibus labore quae dicta aut similique natus pariatur tempore veritatis, ratione cupiditate, velit unde vitae sint quam quia doloribus.</p>
+        </section>
+        <section>
+            <h3 id="edu">Education</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sapiente veniam temporibus labore quae dicta aut similique natus pariatur tempore veritatis, ratione cupiditate, velit unde vitae sint quam quia doloribus.</p>
+        </section>
+        </article>
+   </main>
+   <footer>
+    copy@-right
+   </footer>
+</body>
+</html>

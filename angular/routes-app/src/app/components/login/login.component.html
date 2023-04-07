@@ -1,0 +1,22 @@
+<p>login works!</p>
+<h2 style="text-align: center;">Sign in</h2>
+         <div class="container">
+            <form (ngSubmit)="onSubmit()"name="regform" class="mb-4">
+                <table align="center">
+                    <tr>
+                        <td><label for="Username">Full Name*:</label></td>
+                         <td><input type="text" name="username" [(ngModel)]="username"  required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label for="password">Enter pasword:</label></td>
+                         <td><input type="password" name="password" [(ngModel)]="password"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="submit" value="Sign in" class="btn btn-primary">
+                      <input type="reset" value="clear" class="btn btn-primary"></td>
+                  </tr>
+                  
+              </table>
+          </form>
+       </div>
